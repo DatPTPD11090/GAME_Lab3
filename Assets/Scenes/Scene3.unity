@@ -443,6 +443,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Square 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4046310736207759418, guid: 4b4d5078819179248bcb5fc67e572e5e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046310736207759418, guid: 4b4d5078819179248bcb5fc67e572e5e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 743947353
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2387161004147128527, guid: 4b4d5078819179248bcb5fc67e572e5e, type: 3}
     m_RemovedGameObjects: []
@@ -984,8 +992,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -845188973
-  m_SortingLayer: 3
+  m_SortingLayerID: 1263081899
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bff7f2a7f2afb6d42bd7069d6b1adb6f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
