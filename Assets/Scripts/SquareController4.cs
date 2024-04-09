@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class SquareController : MonoBehaviour
+public class SquareController4 : MonoBehaviour
 {
     // Start is called before the first frame update
     public float timeRemaining = 60;
@@ -80,7 +80,7 @@ public class SquareController : MonoBehaviour
         if (collision.gameObject.tag.Equals("Circle"))
         {
 
-            Vector2 fistPosition = new Vector2(-5.52f, -0.02f);
+            Vector2 fistPosition = new Vector2(-8, 1);
             transform.position = fistPosition;
 
         }
