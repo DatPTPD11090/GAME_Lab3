@@ -90,7 +90,7 @@ public class SquareController4 : MonoBehaviour
             LoadNextScene();
 
         }
-        if (collision.gameObject.tag.Equals("Pinwheel"))
+        if (collision.gameObject.tag.Equals("X"))
         {
 
             Vector2 fistPosition = new Vector2(-9, 1);

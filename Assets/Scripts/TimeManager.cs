@@ -45,6 +45,7 @@ public class TimeManager : MonoBehaviour
         string timeString = string.Format("{0:0}:{1:00}", minutes, seconds);
         timeText.text = "Time: " + timeString;
     }
+
     void GameOver()
     {
         isGameOver = true;

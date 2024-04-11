@@ -8,7 +8,7 @@ public class NextSceneController : MonoBehaviour
     public string nextLevel;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Circle"))
+        if (collision.CompareTag("Square"))
         {
             SceneManager.LoadScene(nextLevel);
         }
